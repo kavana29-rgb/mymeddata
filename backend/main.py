@@ -46,6 +46,7 @@ app.add_middleware(
    allow_origins=[
     "http://localhost:5173",
     "https://mymeddata-t392-geew8neu7-kavanakavana885-6570.vercel.app",
+    "https://mymeddata-t392-g6e7xwb0w-kavanakavana885-6570.vercel.app",
 ],
     allow_credentials=True,
     allow_methods=["*"],
