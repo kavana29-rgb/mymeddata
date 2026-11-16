@@ -1,0 +1,5 @@
+/* Redaction Module Styling inherits from App design system */
+.redaction-page {
+  max-width: 950px;
+  margin: 0 auto;
+}
