@@ -14,7 +14,7 @@ import schemas
 router = APIRouter(prefix="/documents", tags=["Medical Documents"])
 
 # Secure storage directory inside backend/
-BASE_STORAGE_DIR = os.path.join("secure_storage", "originals")
+BASE_STORAGE_DIR = os.path.join("/tmp", "mymeddata", "secure_storage", "originals")
 os.makedirs(BASE_STORAGE_DIR, exist_ok=True)
 
 MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024  # 5 MB limit
