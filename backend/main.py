@@ -43,12 +43,10 @@ app = FastAPI(
 # CORS configuration supporting standard Vite and alternate local development origins
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-    ],
+   allow_origins=[
+    "http://localhost:5173",
+    "https://mymeddata-t392-geew8neu7-kavanakavana885-6570.vercel.app",
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
